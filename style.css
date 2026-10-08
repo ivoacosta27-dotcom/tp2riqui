@@ -1,0 +1,269 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e2e8f0;
+    color: #0c0b0b;
+    padding: 10px;
+    margin: 0;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    background: #1e293b;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 70px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.enlaces {
+    display: flex;
+    align-items: center;
+}
+
+.enlaces a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    background: #4f46e5;
+    border: 1px solid #00050e;
+    padding: 10px 14px;
+    margin-left: 8px;
+    border-radius: 4px;
+}
+
+.enlaces a:hover {
+    background: #4338ca;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0f172a;
+    border: 1px dashed #334155;
+    border-radius: 6px;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.texto h1 {
+    font-size: 48px;
+    margin-bottom: 6px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #38bdf8;
+}
+
+.texto p {
+    font-size: 18px;
+    color: #94a3b8;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.banner img {
+    width: 300px;
+    height: 160px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.seccion-cajas {
+    background: #1e293b;
+    border: 1px dashed #475569;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.seccion-cajas h2 {
+    font-size: 20px;
+    color: #f8fafc;
+    margin-bottom: 14px;
+    letter-spacing: 1px;
+}
+
+.contenedor-cajas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 15px;
+}
+
+.caja {
+    flex: 1;
+    min-width: 200px;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background: #f1f5f9;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caja h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.caja p {
+    font-size: 13px;
+    color: #475569;
+    margin-bottom: 12px;
+}
+
+.caja button {
+    background: #4f46e5;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.caja button:hover {
+    background: #4338ca;
+}
+
+.contenedor-columnas {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+    padding: 16px;
+    background: #0f172a;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.columna {
+    flex: 1;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.columna h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.columna p, .columna a {
+    font-size: 12px;
+    color: #334155;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-top: 4px solid #4f46e5;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.h1-2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.h1-2 h1 {
+    font-size: 32px;
+    color: #0f172a;
+    margin: 0;
+}
+
+.p-2 {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.p-2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #334155;
+}
+
+.cajas-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.cajas-2 .caja {
+    flex: 1;
+    max-width: 450px;
+}
+
+.cajas-2 .caja img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.h1-3 {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.h1-3 h1 {
+    font-size: 28px;
+    color: #0f172a;
+}
+
+.h1-3 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .contenedor-cajas, .contenedor-columnas, .cajas-2 {
+        flex-direction: column;
+    }
+}
